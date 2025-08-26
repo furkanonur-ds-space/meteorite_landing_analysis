@@ -3,15 +3,15 @@
 This project is a data analysis of public meteorite landing data from NASA, using Python and Jupyter Notebook. The project aims to clean, analyze, and visualize the data, including plotting meteorite landing locations on an interactive world map.
 
 ### Dataset
-The "Meteorite Landings" dataset provided by NASA was used for this analysis. The dataset contains information about meteorites from around the world, including their name, mass, year of fall, geographical location, and class.
+The "Meteorite Landings" dataset provided by Kaggle was used for this analysis. The dataset contains information about meteorites from around the world, including their name, mass, year of fall, geographical location, and class.
 
 ### Analysis & Findings
 
 The following steps were performed, leading to several key findings:
 
 1.  **Data Exploration:** The first 5 rows of the dataset were examined, data types were checked, and a basic statistical summary was generated.
-    * The heaviest meteorite in the dataset was found to have a mass of **40,000,000 grams**.
-    * The oldest recorded meteorite fall dates back to **861 BC**.
+    * The heaviest meteorite in the dataset was found to have a mass of **60,000,000 grams**.
+    * The oldest recorded meteorite fall dates back to **301 AD**.
 
 2.  **Data Cleaning & Preparation:** Before the analysis, missing data in the `mass` and geographical columns were handled, and the mass unit was converted from grams to kilograms.
 
